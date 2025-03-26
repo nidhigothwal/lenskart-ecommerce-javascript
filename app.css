@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+body {
+    font-family: "Quicksand", serif;
+    background-color: rgb(39, 38, 38);
+  
+  } */
+
+.web {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar img {
+    width: 450px;
+}
+
+.container {
+    width: 100%;
+    min-height: 550px;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -2px;
+}
+
+.slider {
+    display: flex;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+.left-icon,
+.right-icon {
+    /* background-color: black; */
+    color: rgb(9, 9, 9);
+    font-size: 30px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    top: 40%;
+}
+
+.left-icon {
+    left: 0;
+}
+
+.right-icon {
+    right: 0;
+}
+
+.center-text {
+    padding-top: 50px;
+
+}
+
+.trend-style-frame {
+    text-align: center;
+    font-size: 40px;
+}
+
+.short-text {
+    text-align: center;
+}
+
+
+
+p {
+    text-align: center;
+    font-size: 40px;
+    /* padding: 40px; */
+
+
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    width: 1000px;
+    /* height: 200px; */
+    background-color: white;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.itme-box {
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+}
+
+.product {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 15px 12px;
+
+}
+
+.product img {
+    width: 70%;
+    height: auto;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(13, 12, 12);
+    color: rgb(252, 252, 251);
+    width: 80px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.price {
+    margin-top: 10px;
+}
